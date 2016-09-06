@@ -1,0 +1,193 @@
+#rincon-dark-blue {
+	color: #265573;
+}
+#rincon-blue {
+	color: #3b678b;
+}
+
+#rincon-grey {
+	color: #5e696c;
+}
+
+#rincon-white {
+	color: #fbfcfc;
+}
+
+p {
+	font-family: "jaf-bernina-sans-condensed",sans-serif;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+  font-family: "jaf-bernina-sans-condensed",sans-serif;
+  }
+
+.jumbo {
+	background: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/c_fill,g_center,h_700,w_1900/v1471987496/IMG_7665_trkwsl.jpg")no-repeat;
+	width: 100%;
+	height: 100%;
+	max-height: 550px;
+}
+
+.menu-bar {
+	height: 75px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding-top: 5px;
+}
+.menu {
+	padding: 15px;
+	color: #3b678b;
+}
+.menu a{
+	color: #265573;
+	font-weight: 700;
+	font-family: "jaf-bernina-sans-condensed",sans-serif;
+}
+.menu a:hover{
+	color: #3b678b;
+}
+
+.green-box {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	border-radius: 0 0 15px 0;
+	margin-top: 55px;
+	width: 200px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #57AD57;
+	color: #fbfcfc;
+	line-height: 0;
+	text-align: center;
+
+}
+.green-box h5{
+	line-height: 0;
+}
+
+.text-contain {
+	padding: 25px;
+	text-align: center;
+}
+
+.mountains{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	width: 550px;
+	height: 60px;
+	padding-top: 15px;
+}
+
+.container {
+	position: relative;
+	padding-top: 50px;
+}
+.slogan {
+	position: relative;
+}
+
+.slogan h1 {
+	color: #fff;
+	font-size: 4.5rem;
+	line-height: 4rem;
+	font-weight: 700;
+}
+
+.slogan h2 {
+	color: #fff;
+	line-height: 3rem;
+	font-weight: 300;
+	font-size: 3.5rem;
+
+}
+
+.boxes {
+	width: 100%;
+
+}
+
+.box1 {
+	padding: 15px;
+	color: #fbfcfc;
+	background-color: #3b678b;
+	text-align: center;
+}
+.box2{
+	padding: 15px;
+	color: #fbfcfc;
+	background-color: #318FCF;
+	text-align: center;
+}
+.box3{
+	padding: 15px;
+	color: #fbfcfc;
+	background-color: #5FABD6;
+	text-align: center;
+}
+
+.learn-more.evidence {
+	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/b_rgb:3b678b,c_fill,e_tint,h_800,o_37,w_1900/v1471547906/rincon/AdobeStock_73554787.jpg') fixed;
+	padding: 25px;
+	text-align: center;
+	color: #fff;
+	margin-top: 25px;
+}
+
+.learn-more-nbg {
+	padding: 25px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.contact-main{
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #ECF0F1;
+}
+
+.footer {
+	color: #fbfcfc;
+	padding-top: 25px;
+	height: 75px;
+	width: 100%;
+	background-color: #3b678b;
+}
+.fa-comments{
+	color: #fff;
+	padding-left: 25px;
+}
+
+.button.green {
+	background-color: #57AD57;
+	border-radius: 0 0 15px 0;
+}
+.button.blue {
+	background-color: #3b678b;
+}
+.button.blue:hover {
+	background-color: #fff;
+	border: 1px solid #3b678b;
+	color: #3b678b;
+}
+
+/* Small screens  */
+@media only screen and (max-width: 640px) {
+	.green-box {
+		padding-top: 0px;
+		margin-top: 20px;
+
+	}
+	.container {
+		left: 0;
+		padding-top: 10px;
+	}
+	.mountains {
+		width: 261px;
+		height: 30px;
+		background: url('/images/mountains.svg' width="200px")no-repeat;
+	}
+}
